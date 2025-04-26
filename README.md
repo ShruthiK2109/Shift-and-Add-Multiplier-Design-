@@ -6,7 +6,9 @@
 Shift and Add Algorithm:
 
 Multiplicand (A) : The number to be multiplied.
+
 Multiplier (B): The binary number by which the multiplicand is to be multiplied.
+
 Accumulator (C): Stores intermediate results during the process, initially set to zero.
 
 Process:
@@ -18,6 +20,7 @@ Process:
 3. For each bit of the multiplier:
    
 i) If the bit is 1, shift the multiplicand by i times and add it to the accumulator value
+
 ii) If the bit is 0, no operations are carried out.
 
 4. After processing all the bits, the final result is stored in the accumulator (C).
